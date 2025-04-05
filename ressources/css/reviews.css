@@ -1,0 +1,54 @@
+.review .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.review .box-container .box{
+    flex: 1 1 30rem;
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+    padding: 3rem 2rem;
+    position: relative;
+    border: var(--border);
+}
+.review .box-container .box .fa-quote-right{
+    position: absolute;
+    bottom: 3rem;
+    right: 3rem;
+    font-size: 6rem;
+    color: var(--bg-color2);
+}
+.review .box-container .box .user{
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+}
+.review .box-container .box .stars i{
+    color: var(--title-color);
+    font-size: 2rem;
+}
+.review .box-container .box p{
+    color: #999;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    padding-top: 2rem;
+}
+.review .box-container .box .user img{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+.review .box-container .box .user h3{
+    font-size: 2rem;
+    color: var(--txt-suave);
+}
+.review .box-container .box .user p{
+    font-size: 1.5rem;
+    color: #999;
+}
+.review .box-container .box .user span{
+    font-size: 2rem;
+    color: var(--txt-claro);
+}

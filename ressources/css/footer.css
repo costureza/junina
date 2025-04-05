@@ -1,0 +1,41 @@
+.footer{
+    padding:2rem 9%;
+}
+.footer .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.footer .box-container .box{
+    flex: 1 1 25rem;
+}
+.footer .box-container .box h3{
+    color: var(--txt-claro);
+    font-size: 2.5rem;
+    padding: 1rem 0;
+}
+.footer .box-container .box  a{
+    display: block;
+    color: var(--txt-suave);
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+.footer .box-container .box  a:hover{
+    color: var(--title-color);
+}
+.footer .box-container .box  img{
+    margin-top: 1rem;
+    width: 0px;
+}
+.footer .credit{
+    text-align: center;
+    padding: 1.5rem;
+    padding-top: 2.5rem;
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    color: var(--txt-suave);
+    border-top: var(--border);
+}
+.footer .credit span{
+    color: var(--title-color);
+}

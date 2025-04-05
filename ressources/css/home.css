@@ -1,0 +1,28 @@
+.home{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(../img/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.home .content{
+    max-width: 50rem;
+}
+.home .content h3{
+    font-size: 6rem;
+    color: var(--title-color);
+}
+.home .content span{
+    font-size: 3.5rem;
+    color: var(--link);
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+.home .content p{
+    font-size: 1.5rem;
+    color: var(--title-color);
+    padding: 1rem 0;
+    line-height: 1.5;
+}

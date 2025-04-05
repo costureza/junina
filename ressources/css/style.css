@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    list-style-type: none;
+    text-decoration: none;
+    transition: .2s linear;
+    font-family: var(--font-geral); 
+}
+:root{
+    --font-geral: "Montserrat", sans-serif;
+    --title-font: "Playfair Display", serif;
+    --logo-font:"Irish Grover", system-ui;
+    --bg-color:  #FFF9F0;
+    --bg-color2:#eee;
+    --white:#fff;
+    --title-color: #A52A2A;
+    --txt-suave:#333;
+    --txt-claro:#555;
+    --link:#E67E22;
+    --hoover:#D35400;
+    --bg-botao:#E67E22;
+    --hoover-botao:#F1C40F;
+    --border:.1rem solid rgba(0,0,0,.1);
+    --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+body{
+    background: var(--bg-color);
+}
+section{
+    padding:2rem 9%;
+}
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: var(--bg-botao);
+    color: var(--bg-color);
+    padding: .9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+.btn:hover{
+    background: var(--hoover-botao);
+}
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    color:var(--txt-suave);    
+    padding: 1rem;
+    margin: 2rem 0;
+    background: rgb(255, 51, 153,.05);
+}
+.heading span{
+    color: var(--title-color);
+}
